@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Waste Management System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <header>
+        <div class="navbar">
+          <div class="icon">
+            <h2 class="logo">TRACK</h2>
+          </div>
+          <div class="menu-container">
+            <!-- Menu Icon -->
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+          <div class="menu">
+            <ul>
+              <li><a href="home.html"><ion-icon name="home-outline"></ion-icon> Home</a></li>
+          <li><a href="about.html"><ion-icon name="information-circle-outline"></ion-icon> About</a></li>
+          <li><a href="contact.html"><ion-icon name="mail-outline"></ion-icon> Contact</a></li>
+          <li><a href="login.html"><ion-icon name="person-outline"></ion-icon> Login</a></li>
+          </div>
+      
+        
+      </header>
+  <div class="five">
+      <div class="content">
+        <h1>Waste <br /><span>Collection</span> <br />Innovation</h1>
+        <p class="ten">Welcome to the number one waste collection service.</p>
+        <div class="features">
+          <div class="feature-box">
+            <ion-icon name="trash-outline"></ion-icon>
+            <h3>Efficient Waste Collection</h3>
+            <p>Streamlined processes to ensure timely pickups.</p>
+          </div>
+          <div class="feature-box">
+            <ion-icon name="recycle-outline"></ion-icon>
+            <h3>Recycling Programs</h3>
+            <p>Advanced recycling facilities and programs.</p>
+          </div>
+          <div class="feature-box">
+            <ion-icon name="map-outline"></ion-icon>
+            <h3>Real-Time Tracking</h3>
+            <p>Track the status of waste collection in real-time.</p>
+          </div>
+        </div>
+      </div>
+      <section class="additional-content">
+        <h2>Waste Management </h2>
+        
+         <!-- Image Gallery Section -->
+  <div class="image-gallery">
+    <div class="image-item">
+      <img src="images/waste 2.avif" alt="Waste Collection" />
+      <div class="caption">
+        <h3>Efficient Waste Collection</h3>
+        <p>Our fleet ensures timely and efficient waste collection to keep your community clean.</p>
+      </div>
+    </div>
+    
+    <div class="image-item">
+      <img src="images/waste 3.avif" alt="Recycling Programs" />
+      <div class="caption">
+        <h3>Recycling Programs</h3>
+        <p>Participate in our advanced recycling programs to contribute to a greener planet.</p>
+      </div>
+    </div>
+    
+    <div class="image-item">
+      <img src="images/waste 7.avif" alt="Real-Time Tracking" />
+      <div class="caption">
+        <h3>Real-Time Tracking</h3>
+        <p>Track the status of your waste collection in real-time with our advanced tracking system.</p>
+      </div>
+    </div>
+
+    <!-- Additional Images -->
+    <div class="image-item">
+      <img src="images/waste 5.avif" alt="Waste Disposal" />
+      <div class="caption">
+        <h3>Safe Waste Disposal</h3>
+        <p>Proper disposal methods to ensure environmental safety and compliance.</p>
+      </div>
+    </div>
+
+    <div class="image-item">
+      <img src="images/waste 6.avif" alt="Community Cleanup" />
+      <div class="caption">
+        <h3>Community Cleanup Initiatives</h3>
+        <p>Join our community cleanup drives to help maintain a cleaner environment.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+        <!-- Schedule Table -->
+        <h2>Collection Schedule</h2>
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Type of Waste</th>
+              <th>Collection Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monday</td>
+              <td>Recyclables</td>
+              <td>8:00 AM - 10:00 AM</td>
+            </tr>
+            <tr>
+              <td>Tuesday</td>
+              <td>General Waste</td>
+              <td>10:00 AM - 12:00 PM</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>Organic Waste</td>
+              <td>8:00 AM - 10:00 AM</td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
+
+        <!-- Routes Table -->
+        <h2>Collection Routes</h2>
+        <table class="routes-table">
+          <thead>
+            <tr>
+              <th>Route</th>
+              <th>Area Covered</th>
+              <th>Approximate Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Route A</td>
+              <td>North District</td>
+              <td>8:00 AM - 10:00 AM</td>
+            </tr>
+            <tr>
+              <td>Route B</td>
+              <td>South District</td>
+              <td>10:00 AM - 12:00 PM</td>
+            </tr>
+            <tr>
+              <td>Route C</td>
+              <td>East District</td>
+              <td>1:00 PM - 3:00 PM</td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
+      </section>
+    </div>
+  </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script>
+      function toggleMenu() {
+          const menu = document.querySelector('.menu');
+          menu.classList.toggle('active');
+          const menuIcon = document.querySelector('.menu-icon');
+          menuIcon.classList.toggle('active');
+      }
+  </script>
+  
+  </body>
+  
+</html>
